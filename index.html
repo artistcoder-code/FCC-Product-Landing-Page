@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Nav-Bar -->
+    <header id="header" class="header">
+       
+        <nav id="nav-bar" class="nav-bar">
+            <div class="logo">
+                <img  id="header-img" class="header-img" src="img/logo.png" alt="logo of trombones">
+            </div>
+            <ul class="nav-list">
+               <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+               <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+               <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Form section with input -->
+
+    <form action="https://www.freecodecamp.com/email-submit" id="form" class="form container">
+        <h1 class="form--title">Handcrafted, home-made masterpieces</h1>
+        <input type="email" id="email" class="email" name="email" placeholder="Enter your email address" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
+        <br><br>
+        <input type="submit" id="submit" class="submit" name="submit" value="Get Started">
+    </form>
+
+    <!-- Third section text -->
+
+    <section id="features" class="features container">
+
+            <div class="icon-fire">
+                <img src="img/fire-2-48.png" alt="orange fire image">
+            </div>
+
+            <div class="col">
+                <div class="features-text">
+                    <h2 class="section-text--title">Premium Materials</h2>
+                    <p class="section-text--paragraph">Our trombones use the shiniest brass which is sourced locally. 
+                        This will increase the longevity of your purchase.
+                    </p>
+                </div>
+            </div>
+
+            <div class="icon-truck">
+                <img src="img/truck-2-48.png" alt="orange truck image">
+            </div>
+            <div class="col">
+                <div class="features-text">
+                    <h2 class="section-text--title">Fast Shipping</h2>
+                    <p class="section-text--paragraph">We make sure you recieve your trombone as soon as we have finished making it. 
+                        We also provide free returns if you are not satisfied.
+                    </p>
+                </div>
+            </div>
+
+            <div class="icon-full-battery">
+                <img src="img/full-battery-48.png" alt="orange full battery image">
+            </div>
+
+            <div class="col">
+                <div class="features-text">
+                    <h2 class="section-text--title">Quality Assurance</h2>
+                    <p class="section-text--paragraph">For every purchase you make, we will ensure there are no damages or faults 
+                        and we will check and test the pitch of your instrument.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Fourth Section Video -->
+<div class="container">
+    <section id="how-it-works" class="how-it-works">
+            <iframe id="video" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+    </section>
+</div>
+    <!-- Fifth Section Cards -->
+
+    <section id="pricing" class=" pricing container row">
+        <div class="section-cards--container">
+            <h3 class="section-cards--title">TENOR TROMBONE</h3>
+            <p class="section-cards--price">&#36;600</p>
+            <p class="section-cards--paragraph">Lorem ipsum.</p>
+            <p class="section-cards--paragraph">Lorem ipsum.</p>
+            <p class="section-cards--paragraph">Lorem ipsum dolor.</p>
+            <p class="section-cards--paragraph">Lorem ipsum.</p>
+
+            <input type="button" id="button" class="button" value="select">
+        </div>
+
+        <div class="section-cards--container">
+            <h3 class="section-cards--title">BASS TROMBONE</h3>
+            <p class="section-cards--price">&#36;900</p>
+            <p class="section-cards--paragraph">Lorem ipsum.</p>
+            <p class="section-cards--paragraph">Lorem ipsum.</p>
+            <p class="section-cards--paragraph">Lorem ipsum dolor.</p>
+            <p class="section-cards--paragraph">Lorem ipsum.</p>
+
+            <input type="button" id="button" class="button" value="select">
+        </div>
+
+        <div class="section-cards--container">
+            <h3 class="section-cards--title">VALVE TROMBONE</h3>
+            <p class="section-cards--price">&#36;1200</p>
+            <p class="section-cards--paragraph">Plays similar to a Trumpet</p>
+            <p class="section-cards--paragraph">Great for Jazz Bands</p>
+            <p class="section-cards--paragraph">Lorem ipsum dolor.</p>
+            <p class="section-cards--paragraph">Lorem ipsum.</p>
+
+            <input type="button" id="button" class="button" value="select">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+        <ul class="footer-list">
+            <li class="footer-item">Privacy</li>
+            <li class="footer-item">Terms</li>
+            <li class="footer-item">Contact</li>
+        </ul>
+
+        <p class="footer-text">Copyright 2016, Original Trombones</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
